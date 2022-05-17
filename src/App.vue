@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <!-- 渲染router组件 -->
+    <router-view></router-view>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import HeaderInfo from './components/HeaderInfo.vue'
+// import HomeContent from './components/HomeContent.vue'
+// import MineInfo from './components/MineInfo.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+      // MineInfo,
+      // HomeContent
+  },
 }
 </script>
 
@@ -23,6 +27,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
+
 </style>
